@@ -19,7 +19,6 @@ h1{
 
 
     
-
 .h3{
     color: black;
     text-align: center;
@@ -51,6 +50,11 @@ p{
     text-align: center;
     font-size: 37px;
     text-shadow: 2px 3px 3px rgb(241, 240, 127) ;
+}
+
+#pre{
+    user-select: all;
+    text-align: left;
 }
 
 
