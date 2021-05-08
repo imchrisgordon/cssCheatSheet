@@ -10,20 +10,22 @@ body{
 
 
 h1{
-    color: darkred;
+    color: white;
     text-align: center;
-    font-family: 'Freckle Face', cursive;
-    font-size: 75px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    text-shadow: 2px 3px 3px rgb(241, 240, 127) ;
 }
 
 
     
 
-h3{
+.h3{
     color: black;
     text-align: center;
     font-family: 'Freckle Face', cursive;
     font-size: 25px;
+    text-shadow: 2px 3px 3px rgb(241, 240, 127) ;
     align-items: center;
     margin-top: -20pt;
     background-color:lightgrey;
@@ -43,6 +45,14 @@ p{
     
 }
 
+.para{
+    color: white;
+    font-family:'Amatic SC', cursive;
+    text-align: center;
+    font-size: 37px;
+    text-shadow: 2px 3px 3px rgb(241, 240, 127) ;
+}
+
 
 .cardbox{
     flex: 4;
@@ -51,8 +61,21 @@ p{
 
 }
 
+.boxes .h3 {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-
+    out;
+}
 
-#box1{
+.boxes:hover,
+.boxes:hover .h3{
+    box-shadow: inset 0px 0px 8px
+rgb(241, 240, 127), 0 0 15px
+rgb(236, 234, 110);
+}
+
+
+.boxes{
     background-color: gray;
     border-style: dashed;
     border-color: black;
@@ -60,70 +83,20 @@ p{
     padding: 5px;
     margin: 15pt 7pt;
     flex: 1 1 400px;
-    box-shadow: lightgoldenrodyellow 8px 8px 5px 0;
+    box-shadow: rgb(236, 234, 110) 4px 7px 7px 0;
     
 }
 
-#box2{
-    background-color: gray;
-    border-style: dashed;
-    border-color: black;
-    border-radius: 2px;
-    padding: 5px;
-    margin: 15pt 7pt;
-    flex: 1 1 400px;
-    box-shadow: lightgoldenrodyellow 7px 7px 5px 0;
-    
+@media screen and (max-width: 768px) {
+    section {
+      flex-direction: column;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
 }
-
-#box3{
-    background-color: gray;
-    border-style: dashed;
-    border-color: black;
-    border-radius: 2px;
-    padding: 5px;
-    margin: 15pt 7pt;
-    flex: 1 1 400px;
-    box-shadow: lightgoldenrodyellow 7px 7px 5px 0;
-    
-}
-
-#box4{
-    background-color: gray;
-    border-style: dashed;
-    border-color: black;
-    border-radius: 2px;
-    padding: 5px;
-    margin: 15pt 7pt;
-    flex: 1 1 400px;
-    box-shadow: lightgoldenrodyellow 7px 7px 5px 0;
-    
-}
-
-#box5{
-    background-color: gray;
-    border-style: dashed;
-    border-color: black;
-    border-radius: 2px;
-    padding: 5px;
-    margin: 15pt 7pt;
-    flex: 1 1 400px;
-    box-shadow: lightgoldenrodyellow 7px 7px 5px 0;
-    
-}
-
-#box6{
-    background-color: gray;
-    border-style: dashed;
-    border-color: black;
-    border-radius: 2px;
-    padding: 5px;
-    margin: 15pt 7pt;
-    flex: 1 1 400px;
-    box-shadow: lightgoldenrodyellow 7px 7px 5px 0;
-    
-}
-
-
-
 

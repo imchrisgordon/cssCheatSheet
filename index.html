@@ -18,14 +18,15 @@
 
 <body>
     <header class="h1">
-        <h1>Scary good CSS Cheat Sheet</h1>
+        <h1>Are you afraid of the CSS?</h1>
     </header>
-    <div id="para">
-        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it
+    <div>
+        <p class="para">Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent
+            home and add it
             to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
     </div>
     <section class="cardbox">
-        <div id="box1">
+        <div class="boxes">
             <h3 class="h3">Flexbox Row</h3>
             <p>Use these three properties to create a Flexbox row layout.</p>
             <pre>
@@ -36,8 +37,8 @@
             }
         </pre>
         </div>
-        <div id="box2">
-            <h3>Flexbox Column</h3>
+        <div class="boxes">
+            <h3 class="h3">Flexbox Column</h3>
             <p>Use this to create a Flexbox column layout.</p>
             <pre>
             .column {
@@ -46,8 +47,8 @@
             }
         </pre>
         </div>
-        <div id="box3">
-            <h3>CSS Grid Layout</h3>
+        <div class="boxes">
+            <h3 class="h3">CSS Grid Layout</h3>
             <p>Build a 12-column layout using CSS Grid.</p>
             <pre>
             .grid {
@@ -58,21 +59,22 @@
             }
         </pre>
         </div>
-        <div id="box4">
-            <h3>Linear Gradients</h3>
+        <div class="boxes">
+            <h3 class="h3">Linear Gradients</h3>
             <p>This will create a background linear gradiant from top to bottom.</p>
+            <br>
             <pre>
             .linear-gradient-background {
                 background-image: linear-
             gradient(
-                rgba(232, 102, 236, 0.3) 0%,
-                rgba(232, 102, 236, 0.6) 100%
+                rgba(67, 66, 68) 0%,
+                rgba(169, 166, 172) 100%
                ):
             }
         </pre>
         </div>
-        <div id="box5">
-            <h3>Box Transition Glow</h3>
+        <div class="boxes">
+            <h3 class="h3">Box Transition Glow</h3>
             <p>Use transition and box shadows to glow on hover.</p>
             <pre>
                 .code-card .card-header {
@@ -89,10 +91,11 @@
                 }
             </pre>
         </div>
-        <div id="box6">
-            <h3>Overlay Card With Title</h3>
+        <div class="boxes">
+            <h3 class="h3">Overlay Card With Title</h3>
             <p>Use postition properties and negative margins to raise elements higher than their natural starting point.
             </p>
+            <br><br>
             <pre>
                 .card-header {
                     postition: relative;
@@ -101,6 +104,16 @@
             </pre>
         </div>
     </section>
+
+    <footer>
+        <h1>Still Scared? </h1>
+        <P class="para">
+            Head to <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs</a> For more
+            help.
+            <br>
+            If you dare...
+        </P>
+    </footer>
 
 </body>
 
